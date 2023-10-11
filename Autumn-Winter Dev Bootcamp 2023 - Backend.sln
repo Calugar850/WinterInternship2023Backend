@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.34031.81
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Autumn-Winter Dev Bootcamp 2023 - Backend", "Autumn-Winter Dev Bootcamp 2023 - Backend\Autumn-Winter Dev Bootcamp 2023 - Backend.csproj", "{79D72C1A-C662-4FF8-B83B-6D7E83B0422D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{79D72C1A-C662-4FF8-B83B-6D7E83B0422D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79D72C1A-C662-4FF8-B83B-6D7E83B0422D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79D72C1A-C662-4FF8-B83B-6D7E83B0422D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79D72C1A-C662-4FF8-B83B-6D7E83B0422D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A78FC2B4-7B29-44DA-A582-3A87E9085E86}
+	EndGlobalSection
+EndGlobal
