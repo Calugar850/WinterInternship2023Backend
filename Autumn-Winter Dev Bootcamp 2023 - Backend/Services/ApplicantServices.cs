@@ -21,6 +21,10 @@ namespace Autumn_Winter_Dev_Bootcamp_2023___Backend.Services
             _jobListingDbContext = jobListingDbContext;
         }
 
+        public ApplicantServices()
+        {
+        }
+
         public int CreateApplicant(ApplicantDTO applicantDTO)
         {
             JobListing existingJobListing = _jobListingDbContext.JobListing.Find(applicantDTO.JobListingId);
@@ -41,6 +45,10 @@ namespace Autumn_Winter_Dev_Bootcamp_2023___Backend.Services
                 return 0;
             }
             if (applicantDTO.Country == Country.Romania && (applicantDTO.City!= City.Bucharest && applicantDTO.City != City.Iasi && applicantDTO.City != City.Cluj))
+            {
+                return 0;
+            }
+            if (applicantDTO.FirstName == "" || applicantDTO.LastName == "" || applicantDTO.AddressLine1 == "" || applicantDTO.Email == "")
             {
                 return 0;
             }
